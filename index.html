@@ -16,7 +16,49 @@
 </head>
 
 <body class="container">
+  <!-- form -->
+  <form action="#!" method="get" target="_blank">
+    <div class="container">
+      <div class="row">
+        <h1 class="display-4 text-center fw-bold text-uppercase">Register</h1>
 
+        <div class="form-group mb-3">
+          <div class="col-sm-12 col-md-1 col-lg-1">
+            <label for="uname"> <span class="text-uppercase">name</span></label>
+          </div>
+          <div class="col-sm-12 col-md-11 col-lg-11">
+            <input type="text" class="form-control" placeholder="Adınız" id="uname" required autofocus="on">
+          </div>
+        </div>
+
+        <div class="form-group mb-3">
+          <div class="col-sm-12 col-md-1 col-lg-1">
+            <label for="uemail"> <span class="text-uppercase">email</span></label>
+          </div>
+          <div class="col-sm-12 col-md-11 col-lg-11">
+            <input type="email" class="form-control"  placeholder="Email" id="uemail" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-12 col-md-1 col-lg-1">
+            <label for="upassword"> <span class="text-uppercase">Şifre</span></label>
+          </div>
+          <div class="col-sm-12 col-md-11 col-lg-11">
+            <input type="password" class="form-control"  placeholder="Şifreniz" id="upassword" required>
+          </div>
+        </div>
+
+        <div class="form-group mt-4">
+         <button type="reset" class="btn btn-warning btn-sm">Temizle</button>
+         <button type="" class="btn btn-primary btn-sm">Gönder</button>
+        </div>
+
+      </div>
+    </div>
+  </form>
+
+  <hr>
   <!-- table -->
   <table class="table table-hover table-striped table-primary table-bordered
   table-sm table-responsive">
